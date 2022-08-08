@@ -31,10 +31,10 @@ Description: Genes from COSMIC, TSGene, etc were collected and python's intersec
 
 
 ------EA.R-------
-Performed GSEA analysis on the closest genes associated with reduced markers.
+Performed GSEA analysis on the closest genes associated with overall markers before feature reduction and reduced markers.
 Input: CSV file containing sets of genes in column 'Gene_Symbol'.
 
-Output: GSEA figures for all 4 sets of genes.
+Output: GSEA figures for all 6 sets of genes.
 
 Description: R's TCGAbiolinks package is used for GSEA analysis. TCGAanalyze_EAcomplete function is used on sets of genes to identify classes of genes or proteins that are over-represented using annotations for that gene set. Then 
 TCGAvisualize_EAbarplot was used to show canonical pathways significantly overrepresented (enriched) by the DEGs (differentially expressed genes) with the number of genes for the main categories of three ontologies 
