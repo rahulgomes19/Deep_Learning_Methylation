@@ -1,6 +1,10 @@
 # Deep_Learning_Methylation
 This research explores machine learning and deep learning approach for analyzing DNA methylation data
 
+Please cite the following paper associated with this reseacrch: 
+
+Gomes, Rahul, Nijhum Paul, Nichol He, Aaron Francis Huber, and Rick J. Jansen. 2022. "Application of Feature Selection and Deep Learning for Cancer Prediction Using DNA Methylation Markers" Genes 13, no. 9: 1557. https://doi.org/10.3390/genes13091557
+
 Author: Nijhum Paul
 
 -------final_feature_analysis.py------
