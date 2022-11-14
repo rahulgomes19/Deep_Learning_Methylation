@@ -8,8 +8,11 @@ Gomes, Rahul, Nijhum Paul, Nichol He, Aaron Francis Huber, and Rick J. Jansen. 2
 Author: Nijhum Paul
 
 -------final_feature_analysis.py------
+
 ANOVA and Random forest methods on DNA methylation dataset to get a reduced set of features/CPG markers. 
+
 Python version 3.9.7
+
 Input: BetaData_27K_SimpleImpute_Mean_1.csv and BetaData_450K_SimpleImpute_Zero_1.
 
 Output: 4 sets of reduced features: 1) 27_sim_AnovaRF_markers_woSMOTE, 2) 27_sim_AnovaRF_markers_wSMOTE, 3) 450K_sim_AnovaRF_markers_woSMOTE, 4) 450K_sim_AnovaRF_markers_wSMOTE.
@@ -25,7 +28,9 @@ I also calculated number of common features in the list of only ANOVA and only R
 Finally, array of of reduced features (methylation value) and list of reduced features (CPG markers) are converted to a csv file for further analysis.
 
 ------annotation_final.py-----
+
 In this file, I compared the closest genes associated with reduced markers with the cancer related genes collected from several resources (COSMIC, TSGene database, etc).
+
 Python version 3.9.7
 
 Input: CSV file containing sets of genes in column 'Gene_Symbol'.
@@ -36,8 +41,11 @@ Description: Genes from COSMIC, TSGene, etc were collected and python's intersec
 
 
 ------EA.R-------
+
 Performed GSEA analysis on the closest genes associated with overall markers before feature reduction and reduced markers.
+
 R version 4.2.0 
+
 Input: CSV file containing sets of genes in column 'Gene_Symbol'.
 
 Output: GSEA figures for all 6 sets of genes.
