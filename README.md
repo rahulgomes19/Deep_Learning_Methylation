@@ -13,7 +13,8 @@ ANOVA and Random forest methods on DNA methylation dataset to get a reduced set 
 
 Python version 3.9.7
 
-Input: BetaData_27K_SimpleImpute_Mean_1.csv and BetaData_450K_SimpleImpute_Zero_1.
+Input: CSV file containing CpG markers. Columns represent markers and each row represents each sample. is_tumor column is the last column that represents if a sample is tumor(1) or normal(0).
+BetaData_27K_SimpleImpute_Mean_1.csv and BetaData_450K_SimpleImpute_Zero_1.
 
 Output: 4 sets of reduced features: 1) 27_sim_AnovaRF_markers_woSMOTE, 2) 27_sim_AnovaRF_markers_wSMOTE, 3) 450K_sim_AnovaRF_markers_woSMOTE, 4) 450K_sim_AnovaRF_markers_wSMOTE.
 
